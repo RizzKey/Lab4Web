@@ -105,6 +105,148 @@ Hasilnya
 Hasilnya
 ![image](https://user-images.githubusercontent.com/56240954/115435872-7fbca280-a234-11eb-8f97-a51e501fe14a.png)
 
+# TUGAS
+# 1. Tambahkan Layout untuk menu About
+
+   Buat file HTML baru dengan ```nama about.html```, dan buat single layout yang berisi deskripsi, portfolio, dll
+
+```<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>About Me</h1>
+        </header>
+        <nav>
+            <a href="home.html" class="active">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html">About</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+        <section id="about">
+            <div class="row">
+                <img src="venosw.JPG" title="Fitrah Rizki Ardiansyah" alt="Veno Setyoaji Wiratama" class="image-circle" width="200" style="float: left; border: 2px solid black;">
+                <h1>Veno Setyoaji Wiratama</h1>
+                <p>Nama saya Fitrah Rizki Ardiansyah, Saya adalah seorang mahasiswa Universitas Pelita Bangsa Jurusan Teknik Informatika. Saya lahir di Jakarta, 22 Maret 2001.
+                </p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
+```
+Tambahkan Coding pada style.css
+```
+/* About Panel */
+#about{
+    background-color: #e4e4e5;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+}
+#about h1 {
+    margin-bottom: 10px;
+    font-size: 35px;
+    position: relative;
+    left: 15px;
+}
+#about p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding: 30px;
+    line-height: 25px;
+    position: relative;
+    left: 15px;
+}
+```
+![image](https://user-images.githubusercontent.com/56240954/115437108-f908c500-a235-11eb-8bd9-42f2487cc0d1.png)
+Hasilnya
+![image](https://user-images.githubusercontent.com/56240954/115437176-0f168580-a236-11eb-8bc4-2bf8fc900645.png)
+
+# 2. Tambahkan layout untuk menu Contact
+Buat file HTML baru dengan ```nama kontak.html```, dan buat form yang berisi: nama, email, message, dl
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Contact Me</h1>
+        </header>
+        <nav>
+            <a href="home.html" class="active">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html">About</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+        <section id="kontak">
+            <div class="login">
+                <input type="text" placeholder="Your Name" class="input">
+                <input type="text" placeholder="Your Email Address" class="input">
+            </div>
+
+            <div class="subject">
+                <input type="text" placeholder="Subject" class="input">
+            </div>
+
+            <div class="msg">
+                <textarea cols="35" rows="10" class="area" placeholder="Your Message" class="input"></textarea>
+            </div>
+
+            <button type="submit"> Send </button>
+
+        </section>
+    </div>
+</body>
+</html>
+
+    Tambahkan Coding pada style.css
+
+/* Kontak Panel */
+#kontak{
+    background-color: #e4e4e5;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+}
+.input,
+.msg, .area{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+button{
+    font-size: 14px;
+    background-color: #3f3f3f;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 8x;
+}
+button :hover{
+    opacity: 0,9;
+}
+```
+![image](https://user-images.githubusercontent.com/56240954/115437452-6288d380-a236-11eb-90e6-36ebfb82478b.png)
+Hasilnya
+![image](https://user-images.githubusercontent.com/56240954/115437488-6fa5c280-a236-11eb-8291-362f012ddf26.png)
+
+
+
+
 
 
 
